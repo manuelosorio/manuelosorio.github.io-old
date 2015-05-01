@@ -1,0 +1,50 @@
+footer
+    background: $footer-bg
+    
+    
+    .lockup
+        padding: 50px 30px
+        +clearfix
+        
+        .logo
+            +size(50px)
+            /*background: #bce*/
+            float: left
+            margin-right: 30px
+            
+            
+            
+        .content-wrapper
+            float: left
+                
+            .copyright
+                margin-left: 30px 
+                text-transform: uppercase
+                color: rgba(0, 0, 0, 0.4)
+                @extend %small-bold
+                          
+            a            
+                display: inline-block
+                margin-right: 20px
+            
+                color: rgba(4, 4, 4, 0.5)
+                @extend %small-bold
+                
+            a:hover
+                color: rgba(0, 0, 0, 0.75)
+                    
+                    
+@media screen and (max-width: 330px)
+    footer
+        .lockup
+            .content-wrapper
+                nav
+                    a
+                        margin-right: 5px
+                        font:
+                            size: 10px
+            
+                    
+                    
+                    
+                    

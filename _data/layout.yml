@@ -1,0 +1,32 @@
+# Layout settings
+
+# Images
+
+#logo: "logo.svg"
+
+avatar: "face.jpg"
+
+
+# Colors
+
+accent-color: "rgba(39, 174, 96,1.0)"
+accent-light: "rgba(39, 174, 96,1.0) "
+bgcolor: "rgba(255,158,145,0.75)"
+bgcolor-light: "#eee"
+
+documentBackgroundColor: "#fff"
+headlineColor: "rgba(30,170,90,1)"
+text-color: "#2E2D33"
+link-color: "rgba(39, 174, 96,1.0)"
+selectionColor: "#aca1ad"
+
+primary-color: "rgba(255,107,87,1)"
+primary-color-light: "rgba(255,158,145,1)"
+
+
+muted: 
+header-bg: "rgba(50,50,50,1.0)"
+footer-bg: "rgba(50,50,50,1.0)"
+bg-color-dark: "#4c4c4c"
+
+

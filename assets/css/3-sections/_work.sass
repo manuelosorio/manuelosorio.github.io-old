@@ -1,0 +1,115 @@
+.section-work
+    background: $bg-color-light
+    overflow-x: hidden
+    position: relative
+
+
+.work-belt
+    width: 200%
+    position: relative
+    left: 0%
+    +transition(800ms)
+
+.thumb-wrap, .work-wrap
+    width: 50%
+    float: left
+
+
+.thumb-container
+    max-width: 960px
+    margin: 0px auto    
+    padding-bottom: 45px
+    position: relative
+
+    +clearfix
+
+
+
+
+
+    .thumb-unit
+        display: block
+        width: 25%
+        
+        float: left
+        position: relative
+        padding-top: 16%
+        overflow: hidden 
+        
+        background:
+            repeat: no-repeat
+            position: center center
+        
+        @media screen and (max-width: 760px)
+            width: 50%
+            padding-top: 26%
+            
+            
+            
+        .thumb-overlay
+            +position(absolute)
+            +align-items(center)
+            +justify-content(space-around)
+            +display(flex)
+            background: fade-out($accent-color, 0.1)
+            text-align: center
+            @extend %animationstart_bounceOut
+           
+
+
+
+            strong
+                display: block
+                
+                color: rgba(255, 255, 255, 0.85)
+                fill-opacity: 70%
+                text-transform: uppercase
+                font:
+                    size: 2em
+                line-height: 1.1
+
+        &:hover .thumb-overlay
+            @extend %bounceOut
+
+            
+.work-container
+    max-width: 600px
+    margin: 0px auto    
+    position: relative
+    display: none
+    
+    h4
+        color: $accent-color
+        font-weight: 300
+        text-transform: uppercase
+        font-size: 24px
+        line-height: 1.2
+        margin: 0 0 20px
+        
+            
+    img        
+        max-width: 100%
+        margin-bottom: 20px
+        
+    .work-return
+        +size(40px)
+        cursor: pointer
+        opacity: 0.5
+        +position(absolute, -4px null null -60px)
+            
+        path
+            fill: rgba(0,0,0,0.4)
+            
+            
+        &:hover
+            opacity: 1
+
+@media (max-width: 740px)
+    .work-container
+    
+        .work-return
+            left: 0px
+    
+        h4
+            margin-left: 60px
+

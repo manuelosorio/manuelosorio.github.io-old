@@ -1,0 +1,90 @@
+#-------------------------------
+#index head settings
+
+head:
+
+- {title: Manuel Osorio  | Graphic Designer, name: 'Manuel Osorio', description: 'Manuel Osorio is a graphic logo designer that makes awesome things for people.'}
+
+
+# General Site Settings
+
+
+
+title: Manuel Osorio
+
+description: Graphic Designer // Web Designer
+
+email: hey@manuelosorio.me
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+
+- {name: Home, url: '/'}
+
+- {name: About, url: '/about.html'}
+
+- {name: Work, url: '/work.html'}
+
+- {name: Contact, url: '/contact.html'}
+
+- {name: Shop, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+
+  description: 'Manuel Osorio is a graphic logo designer that makes awesome things for people.'
+  
+  rel-author: 'Manuel Osorio'
+  
+  rel-publisher: 'Manuel Osorio'
+
+#-------------------------------
+# About Section
+
+skills:
+
+- {name: Logo Design, value: '9'}
+
+- {name: Planning, value: '8'}
+
+- {name: Organization, value: '8'}
+
+- {name: Listening, value: '8'}
+
+- {name: Communication, value: '8'}
+
+- {name: Project Management, value: '8'}
+
+#--------------------------------------------
+
+#Work Section
+
+projects:
+- {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
+- {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
+- {name: M&Z Productions, folder: 'M-&-ZProductions', file: 'M-&-ZProductions.html'}
+- {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
+- {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
+- {name: M&Z Productions, folder: 'M-&-ZProductions', file: 'M-&-ZProductions.html'}
+- {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
+- {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
+
+
+#--------------------------------------------
+
+#client Section
+
+clients:
+
+- {avatar: 'lorem-pixel-1.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png'}
+
+- {avatar: 'lorem-pixel-2.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem Lorenzo ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+
+- {avatar: 'lorem-pixel-3.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+
+- {avatar: 'lorem-pixel-4.jpg', name: 'Heley Alden', title: ' Generic Company ', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
