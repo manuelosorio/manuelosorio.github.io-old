@@ -68,11 +68,9 @@ projects:
 - {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
 - {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
 - {name: M&Z Productions, folder: 'M-&-ZProductions', file: 'M-&-ZProductions.html'}
-- {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
-- {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
-- {name: M&Z Productions, folder: 'M-&-ZProductions', file: 'M-&-ZProductions.html'}
-- {name: Storm The Batey, folder: 'storm-the-batey', file: 'storm-the-batey.html'}
-- {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
+- {name: We are Nowhere, folder: 'we-are-nowhere', file: 'we-are-nowhere.html'}
+
+
 
 
 #--------------------------------------------

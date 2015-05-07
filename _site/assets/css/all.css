@@ -907,7 +907,7 @@ h3 {
   .work-container img {
     max-width: 100%;
     margin-bottom: 20px; }
-  .work-container .work-return {
+  .work-container .work-return svg {
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -915,9 +915,9 @@ h3 {
     position: absolute;
     top: -4px;
     left: -60px; }
-    .work-container .work-return path {
+    .work-container .work-return svg path {
       fill: rgba(0, 0, 0, 0.4); }
-    .work-container .work-return:hover {
+    .work-container .work-return svg:hover {
       opacity: 1; }
 
 @media (max-width: 740px) {
