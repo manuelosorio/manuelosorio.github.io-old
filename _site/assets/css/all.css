@@ -607,44 +607,50 @@ header {
     margin-left: 5px;
     font-size: 1em; } }
 footer {
-  background: #323232; }
-  footer .lockup {
-    padding: 50px 30px; }
-    footer .lockup:after {
-      content: "";
-      display: table;
-      clear: both; }
-    footer .lockup .logo svg {
-      width: 150px;
-      float: left;
-      margin-left: 50px; }
-      footer .lockup .logo svg path {
-        fill: snow;
-        -webkit-transition: 800ms;
-        -moz-transition: 800ms;
-        transition: 800ms; }
-        footer .lockup .logo svg path:hover {
-          fill: #ff6b57; }
-    footer .lockup .content-wrapper {
-      float: left;
-      margin-left: 180px; }
-      footer .lockup .content-wrapper .copyright {
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.85); }
-      footer .lockup .content-wrapper a {
-        display: inline-block;
-        margin-right: 20px;
-        -webkit-transition: 800ms;
-        -moz-transition: 800ms;
-        transition: 800ms;
-        color: rgba(255, 255, 255, 0.85); }
-      footer .lockup .content-wrapper a:hover {
-        color: #ff6b57; }
+  background: #323232;
+  height: 85px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden; }
+  footer .lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer .lockup .logo svg {
+    width: 125px;
+    float: left;
+    margin-left: 50px; }
+    footer .lockup .logo svg path {
+      fill: snow;
+      -webkit-transition: 800ms;
+      -moz-transition: 800ms;
+      transition: 800ms; }
+      footer .lockup .logo svg path:hover {
+        fill: #ff6b57; }
+  footer .lockup .content-wrapper {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25%; }
+    footer .lockup .content-wrapper .copyright {
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85); }
+    footer .lockup .content-wrapper a {
+      display: inline-block;
+      margin-right: 20px;
+      -webkit-transition: 800ms;
+      -moz-transition: 800ms;
+      transition: 800ms;
+      color: rgba(255, 255, 255, 0.85); }
+    footer .lockup .content-wrapper a:hover {
+      color: #ff6b57; }
 
 @media screen and (max-width: 330px) {
-  footer .lockup .content-wrapper nav a {
-    margin-right: 5px;
-    font-size: 10px; } }
+  footer .lockup .content-wrapper {
+    margin-left: 5%; }
+    footer .lockup .content-wrapper nav a {
+      margin-right: 5px;
+      font-size: 5px; } }
 #about {
   background: #eee;
   margin-top: -21px; }

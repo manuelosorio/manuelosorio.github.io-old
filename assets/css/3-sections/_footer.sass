@@ -1,16 +1,21 @@
 footer
     background: $footer-bg
-    
+    height: 85px
+    position: absolute
+    width: 100%
+    bottom: 0
+    overflow: hidden
     
     .lockup
-        padding: 50px 30px
+        //padding: 50px 30px
         +clearfix
         
         .logo
             svg
-                width: 150px
+                width: 125px
                 float: left
-                margin-left: 50px
+                margin:
+                    left: 50px
                 path
                     fill: snow
                     +transition(800ms)                    
@@ -21,7 +26,9 @@ footer
             
         .content-wrapper
             float: left
-            margin-left: 180px
+            margin:
+                top: 25px
+                left: 25%
             
             .copyright
                 text-transform: uppercase
@@ -43,11 +50,12 @@ footer
     footer
         .lockup
             .content-wrapper
+                margin-left: 5%
                 nav
                     a
                         margin-right: 5px
                         font:
-                            size: 10px
+                            size: 5px
             
                     
                     

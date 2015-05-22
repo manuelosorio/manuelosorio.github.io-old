@@ -2,7 +2,7 @@
 
 
 # Build settings
-highlighter: rouge
+highlighter: pygments
 encoding: utf-8
 markdown: kramdown
 permalink: pretty
