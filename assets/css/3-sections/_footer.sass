@@ -7,31 +7,36 @@ footer
         +clearfix
         
         .logo
-            +size(50px)
-            /*background: #bce*/
-            float: left
-            margin-right: 30px
+            svg
+                width: 150px
+                float: left
+                margin-left: 50px
+                path
+                    fill: snow
+                    +transition(800ms)                    
+                    &:hover
+                        fill: #ff6b57
             
             
             
         .content-wrapper
             float: left
-                
+            margin-left: 180px
+            
             .copyright
-                margin-left: 30px 
                 text-transform: uppercase
-                color: rgba(0, 0, 0, 0.4)
+                color: rgba(255, 255, 255, 0.85)
                 @extend %small-bold
                           
             a            
                 display: inline-block
                 margin-right: 20px
-            
-                color: rgba(4, 4, 4, 0.5)
+                +transition(800ms)
+                color: rgba(255, 255, 255, 0.85)
                 @extend %small-bold
                 
             a:hover
-                color: rgba(0, 0, 0, 0.75)
+                color: $primary
                     
                     
 @media screen and (max-width: 330px)

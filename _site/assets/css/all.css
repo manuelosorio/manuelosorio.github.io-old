@@ -614,24 +614,32 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      /*background: #bce */
+    footer .lockup .logo svg {
+      width: 150px;
       float: left;
-      margin-right: 30px; }
+      margin-left: 50px; }
+      footer .lockup .logo svg path {
+        fill: snow;
+        -webkit-transition: 800ms;
+        -moz-transition: 800ms;
+        transition: 800ms; }
+        footer .lockup .logo svg path:hover {
+          fill: #ff6b57; }
     footer .lockup .content-wrapper {
-      float: left; }
+      float: left;
+      margin-left: 180px; }
       footer .lockup .content-wrapper .copyright {
-        margin-left: 30px;
         text-transform: uppercase;
-        color: rgba(0, 0, 0, 0.4); }
+        color: rgba(255, 255, 255, 0.85); }
       footer .lockup .content-wrapper a {
         display: inline-block;
         margin-right: 20px;
-        color: rgba(4, 4, 4, 0.5); }
+        -webkit-transition: 800ms;
+        -moz-transition: 800ms;
+        transition: 800ms;
+        color: rgba(255, 255, 255, 0.85); }
       footer .lockup .content-wrapper a:hover {
-        color: rgba(0, 0, 0, 0.75); }
+        color: #ff6b57; }
 
 @media screen and (max-width: 330px) {
   footer .lockup .content-wrapper nav a {
@@ -845,6 +853,9 @@ h3 {
   .thumb-container .thumb-unit {
     display: block;
     width: 25%;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 50px;
     float: left;
     position: relative;
     padding-top: 16%;
@@ -1057,26 +1068,3 @@ h3 {
   text-align: center;
   font-size: 3.5em;
   font-weight: 600; }
-
-footer {
-  background: #323232;
-  hieght: 150px; }
-  footer .lockup {
-    padding: 50px 30px; }
-    footer .lockup:after {
-      content: "";
-      display: table;
-      clear: both; }
-    footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      /*background: #bce */
-      float: left;
-      align-content: center;
-      margin-right: 30px; }
-    footer .lockup .content-wrapper {
-      float: left; }
-      footer .lockup .content-wrapper .copyright {
-        margin-left: 30px;
-        text-transform: uppercase;
-        color: rgba(0, 0, 0, 0.4); }
