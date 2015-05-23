@@ -622,17 +622,19 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    footer .lockup .logo svg {
-      width: 125px;
-      float: left;
-      margin-left: 50px; }
-      footer .lockup .logo svg path {
-        fill: snow;
-        -webkit-transition: 800ms;
-        -moz-transition: 800ms;
-        transition: 800ms; }
-        footer .lockup .logo svg path:hover {
-          fill: #ff6b57; }
+    footer .lockup .logo {
+      margin-top: 15px; }
+      footer .lockup .logo svg {
+        width: 175px;
+        float: left;
+        margin-left: 50px; }
+        footer .lockup .logo svg path {
+          fill: snow;
+          -webkit-transition: 800ms;
+          -moz-transition: 800ms;
+          transition: 800ms; }
+          footer .lockup .logo svg path:hover {
+            fill: #ff6b57; }
     footer .lockup .content-wrapper {
       float: left;
       margin-top: 25px;
