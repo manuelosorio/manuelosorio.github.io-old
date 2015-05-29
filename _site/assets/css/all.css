@@ -456,12 +456,12 @@ hr {
   height: 0; }
 
 a {
-  color: #27ae60;
+  color: #ff6b57;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #60db94; }
+  color: #ffc5bd; }
 
 ::selection {
   background: #aca1ad; }
@@ -557,8 +557,8 @@ header nav a, header .kicker, footer .lockup .content-wrapper .copyright, footer
         .nav .flex-right .links a:hover {
           color: #ff6b57;
           font-weight: 500; }
-  @media screen and (max-width: 540px) {
-    .nav .nav .flex-right {
+  @media screen and (max-width: 870px) {
+    .nav .links {
       display: none; } }
 
 header {
@@ -652,12 +652,16 @@ footer {
       footer .lockup .content-wrapper a:hover {
         color: #ff6b57; }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 660px) {
+  footer .lockup .logo svg {
+    float: none;
+    margin: 0 auto; }
   footer .lockup .content-wrapper {
-    margin-left: 5%; }
+    float: none;
+    margin: 0 auto; }
     footer .lockup .content-wrapper nav a {
       margin-right: 5px;
-      font-size: 5px; } }
+      font-size: 12px; } }
 #about {
   background: #eee;
   margin-top: -21px; }
@@ -877,8 +881,9 @@ h3 {
     background-position: center center; }
     @media screen and (max-width: 760px) {
       .thumb-container .thumb-unit {
-        width: 50%;
-        padding-top: 26%; } }
+        width: 75%;
+        padding-top: 36%;
+        margin: 0 0 25px 15%; } }
     .thumb-container .thumb-unit .thumb-overlay {
       position: absolute;
       -webkit-box-align: center;
@@ -906,7 +911,7 @@ h3 {
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex;
-      background: rgba(39, 174, 96, 0.9);
+      background: rgba(255, 107, 87, 0.9);
       text-align: center; }
       .thumb-container .thumb-unit .thumb-overlay strong {
         display: block;
@@ -922,7 +927,7 @@ h3 {
   position: relative;
   display: none; }
   .work-container h4 {
-    color: #27ae60;
+    color: #ff6b57;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 24px;
@@ -944,11 +949,14 @@ h3 {
     .work-container .work-return svg:hover {
       opacity: 1; }
 
-@media (max-width: 740px) {
-  .work-container .work-return {
-    left: 0px; }
+@media screen and (max-width: 760px) {
+  .work-container .work-return svg {
+    left: 0px;
+    margin-left: 15%; }
   .work-container h4 {
-    margin-left: 60px; } }
+    margin-left: 30%; }
+  .work-container p {
+    margin: 0 15px 20px 15px; } }
 .section-clients {
   position: relative;
   overflow-x: hidden; }

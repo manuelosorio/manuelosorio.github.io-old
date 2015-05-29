@@ -1,3 +1,5 @@
+// margin: top right bottom left
+    margin: 25px 50px 75px 100px;
 footer
     background: $footer-bg
     position: relative
@@ -51,16 +53,21 @@ footer
                 color: $primary
                     
                     
-@media screen and (max-width: 330px)
+@media screen and (max-width: 660px)
     footer
         .lockup
+            .logo
+                svg
+                    float: none
+                    margin: 0 auto
             .content-wrapper
-                margin-left: 5%
+                float: none
+                margin: 0 auto
                 nav
                     a
                         margin-right: 5px
                         font:
-                            size: 5px
+                            size: 12px
             
                     
                     
