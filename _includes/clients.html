@@ -2,7 +2,11 @@
 
     <h3 id=clients>Clients</h3>
     
-
+    <div class="clients-mobile-nav">
+        {% for client in site.data.settings.clients %}
+            <span></span>
+    {% endfor %}
+    </div>
     <!------------ wrap ---------->
     <div class="clients-wrap">
         
@@ -41,7 +45,7 @@
     </div>
         <div class="clients-logos">
           {% for client in site.data.settings.clients %}
-            <div class="client-logo" style="background-image: url(../assets/img/clients/{{ client.logo }})" ></div>
+            <img class="client-logo" src="/assets/img/clients/{{ client.logo }}" alt="{{ client.logo }}"></img>
            {% endfor %}
             
         </div>
