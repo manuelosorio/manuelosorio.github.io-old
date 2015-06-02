@@ -2,13 +2,14 @@
 
     <h3 id=clients>Clients</h3>
     
-    <div class="clients-mobile-nav">
-        {% for client in site.data.settings.clients %}
-            <span></span>
-    {% endfor %}
-    </div>
     <!------------ wrap ---------->
     <div class="clients-wrap">
+       
+        <div class="clients-mobile-nav">
+            {% for client in site.data.settings.clients %}
+                <span></span>
+        {% endfor %}
+        </div>
         
         
         {% for client in site.data.settings.clients %}

@@ -2869,7 +2869,8 @@ h3 {
     left: 10px; }
 
 .clients-mobile-nav {
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .clients-mobile-nav span {
     cursor: pointer;
     display: inline-block;
@@ -2901,7 +2902,10 @@ h3 {
       left: 15px; }
 
   .clients-logos {
-    display: none; } }
+    display: none; }
+
+  .clients-mobile-nav {
+    display: block; } }
 .warning h1 {
   text-align: center;
   font-size: 4.5em;

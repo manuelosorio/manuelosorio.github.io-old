@@ -55,7 +55,7 @@ function smoothScroll (duration) {
         $('.client-logo').first().addClass('active-client');
 
 
-    $('.client-logo').click(function() {
+    $('.client-logo, .clients-mobile-nav span').click(function() {
 
         var $this = $(this),
             $siblings = $this.parent().children(),
