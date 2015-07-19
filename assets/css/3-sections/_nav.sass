@@ -1,41 +1,41 @@
 .nav
-	background: $header-bg
-	height: 40px
-    
-	width: 100%
-	+display(flex)
-	+justify-content(space-around)
-	.logo
-		width: 100px
-		margin-left: -15%
-		svg
-			margin-top: -30px
-			height: 100px
-			width: 100px
-			
-			path
-				+transition(800ms)
-				fill: snow
-				&:hover
-					fill: #ff6b57
-	.flex-right
-		+display(flex)
-		+justify-content(flex-end)
-		width: auto
+    background: $header-bg
+    height: 40px
 
-		.links
-			margin:
-				top: 5px
-				right: -15%
-			a
-				+transition(800ms)
-				color: rgba(255, 255, 255, 0.85)
-				font-size: 20px
-				margin-left: 15px
-				&:hover
-					color: $primary
-					font-weight: 500
-				
-	@media screen and (max-width: 870px)
-		.links
-			display: none
+    width: 100%
+    +display(flex)
+    +justify-content(space-around)
+    .logo
+        width: 100px
+        margin-left: -15%
+        svg
+            margin-top: -30px
+            height: 100px
+            width: 100px
+
+            path
+                +transition(800ms)
+                fill: snow
+                &:hover
+                    fill: #ff6b57
+    .flex-right
+        +display(flex)
+        +justify-content(flex-end)
+        width: auto
+
+        .links
+            margin:
+                top: 5px
+                right: -15%
+            a
+                +transition(800ms)
+                color: rgba(255, 255, 255, 0.85)
+                font-size: 20px
+                margin-left: 15px
+                &:hover
+                    color: $primary
+                    font-weight: 500
+
+    @media screen and (max-width: 870px)
+        .links
+            display: none

@@ -11,7 +11,7 @@ avatar: "face.jpg"
 
 accent-color: "rgba(39, 174, 96,1.0)"
 accent-light: "rgba(39, 174, 96,1.0) "
-bgcolor: "rgba(255,158,145,0.75)"
+bgcolor: "rgba(255, 192, 184, 1)"
 bgcolor-light: "#eee"
 
 documentBackgroundColor: "#fff"
@@ -24,7 +24,7 @@ primary-color: "rgba(255,107,87,1)"
 primary-color-light: "rgba(255,158,145,1)"
 
 
-muted: 
+muted:
 header-bg: "rgba(50,50,50,1.0)"
 footer-bg: "rgba(50,50,50,1.0)"
 bg-color-dark: "#4c4c4c"

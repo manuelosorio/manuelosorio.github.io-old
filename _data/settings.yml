@@ -28,7 +28,7 @@ menu:
 
 - {name: Contact, url: 'contact.html'}
 
-- {name: Shop, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
+- {name: Store, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
 
 #-------------------------------
 # SEO Section
@@ -38,9 +38,9 @@ menu:
 seo:
 
   description: 'Manuel Osorio is a graphic logo designer that makes awesome things for people.'
-  
+
   rel-author: 'Manuel Osorio'
-  
+
   rel-publisher: 'Manuel Osorio'
 
 #-------------------------------
@@ -54,9 +54,11 @@ skills:
 
 - {name: Organization, value: '8'}
 
+- {name: Icon Design, value: '9'}
+
 - {name: Listening, value: '8'}
 
-- {name: Communication, value: '8'}
+- {name: Communication, value: '9'}
 
 - {name: Project Management, value: '8'}
 
@@ -69,7 +71,7 @@ projects:
 - {name: The Nexxus Project, folder: 'the-nexxus-project', file: 'the-nexxus-project.html'}
 - {name: M&Z Productions, folder: 'M-&-ZProductions', file: 'M-&-ZProductions.html'}
 - {name: We are Nowhere, folder: 'we-are-nowhere', file: 'we-are-nowhere.html'}
-
+- {name: Circle Pop Animation, folder: 'circle-pop', file: 'circle-pop.html'}
 
 
 
@@ -86,3 +88,7 @@ clients:
 - {avatar: 'lorem-pixel-3.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
 
 - {avatar: 'lorem-pixel-4.jpg', name: 'Heley Alden', title: ' Generic Company ', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+
+
+
+

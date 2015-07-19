@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden; }
+
 /* 
   Animation: bounceOut
   Source: Bounce.Js */
@@ -2270,7 +2273,7 @@ body {
   -webkit-tap-highlight-color: #aca1ad; }
 
 body {
-  background: rgba(255, 158, 145, 0.75);
+  background: #ffc0b8;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
