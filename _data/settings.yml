@@ -22,11 +22,11 @@ menu:
 
 
 
-- {name: About, url: '/'}
+- {name: About, url: '/index.html'}
 
-- {name: Work, url: 'work.html'}
+- {name: Work, url: '/work.html'}
 
-- {name: Contact, url: 'contact.html'}
+- {name: Contact, url: '/contact.html'}
 
 - {name: Store, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
 
@@ -81,13 +81,13 @@ projects:
 
 clients:
 
-- {avatar: 'lorem-pixel-1.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png'}
+- {avatar: 'lorem-pixel-1.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png'}
 
-- {avatar: 'lorem-pixel-2.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem Lorenzo ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+- {avatar: 'lorem-pixel-2.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png' }
 
-- {avatar: 'lorem-pixel-3.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+- {avatar: 'lorem-pixel-3.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png' }
 
-- {avatar: 'lorem-pixel-4.jpg', name: 'Heley Alden', title: ' Generic Company ', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus. Ut pellentesque turpis nec quam viverra nec vestibulum ipsum auctor. Nunc purus lorem, tristique ac tristique vitae, tempus nec metus. Morbi nec molestie dui. Nunc lacus arcu, Lorem ipsum sollicitudin sit amet ullamcorper et, ullamcorper et orci..</p>', logo: 'GenericCompany.png' }
+- {avatar: 'lorem-pixel-4.jpg', name: 'Heley Alden', title: ' Generic Company ', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png' }
 
 
 
