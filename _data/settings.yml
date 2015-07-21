@@ -22,11 +22,11 @@ menu:
 
 
 
-- {name: About, url: '/index.html'}
+- {name: About, url: ''}
 
-- {name: Work, url: '/work.html'}
+- {name: Work, url: 'work'}
 
-- {name: Contact, url: '/contact.html'}
+- {name: Contact, url: 'contact'}
 
 - {name: Store, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
 
@@ -88,7 +88,3 @@ clients:
 - {avatar: 'lorem-pixel-3.jpg', name: 'Heley Alden', title: 'Generic Company', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png' }
 
 - {avatar: 'lorem-pixel-4.jpg', name: 'Heley Alden', title: ' Generic Company ', qoute: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>Suspendisse velit dui, egestas eu porttitor sed, varius quis risus.</p>', logo: 'GenericCompany.png' }
-
-
-
-
