@@ -2737,7 +2737,10 @@ h3 {
     opacity: 0.5;
     position: absolute;
     top: -4px;
-    left: -60px; }
+    left: -60px;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    transition: 800ms; }
     .work-container .work-return svg path {
       fill: rgba(0, 0, 0, 0.4); }
     .work-container .work-return svg:hover {
