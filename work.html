@@ -1,5 +1,6 @@
 ---
 permalink: work/
+Title: work
 ---
 <!DOCTYPE html>
 <!--
@@ -28,7 +29,7 @@ This site was built with lots of Love and Sass. This site wouldn't have been pos
             <meta name="author" content="{{ head.name }}" />
             <meta name="description" content="{{ head.description }}" />
         {% endfor %}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="../assets/img/icons/favicon.ico">
         <link rel="stylesheet" href="../assets/css/all.css"/>
     </head>
@@ -36,6 +37,7 @@ This site was built with lots of Love and Sass. This site wouldn't have been pos
 
             {% include nav-perm-pretty.html %}
             {% include work.html %}
+
             {% include footer-perm-pretty.html %}
 
 
