@@ -12,31 +12,25 @@
 
 $avatar-path: '{{ site.data.layout.avatar }}'
 
+///////////////////////
+//
+// Colors
+//
+///////////////////////
 
-
-
-
-//------------------------------------------------
-// Set some colors as sass variables
-
-
-$accent-color: {{ site.data.layout.accent-color }}
-
-$accent-light: {{ site.data.layout.accent-light }}
-$bg-color: {{ site.data.layout.bgcolor }}
-$bg-color-light: {{ site.data.layout.bgcolor-light }}
-$primary: {{ site.data.layout.primary-color }}
-$primary-light: {{ site.data.layout.primary-color-light }}
-$documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }}
-$headline-color: {{ site.data.layout.headlineColor }}
-$text-color: {{ site.data.layout.text-color }}
-$link-color: {{ site.data.layout.primary-color }}
-$selection-color: {{ site.data.layout.selectionColor }}
-$header-bg: {{ site.data.layout.header-bg }}
-$footer-bg: {{ site.data.layout.header-bg }}
-$bg-color-dark: {{ site.data.layout.bg-color-dark }}
-
-
+$primary: rgba(241, 94, 69, 1)
+$primary-light: lighten($primary, 15%)
+$bg-color: lighten($primary, 15%)
+$bg-color-light: #ECECEC
+$documentBackgroundColor: #fff
+$headline-color: rgba(30,168.2,90,1)
+$text-color: #2E2D33
+$link-color: rgba(241, 94, 69, 1)
+$selection-color: #aca1ad
+//muted
+$header-bg: rgba(50,50,50,1.0)
+$footer-bg: rgba(50,50,50,1.0)
+$bg-color-dark: #4c4c4c
 
 
 ///////////////////////////
