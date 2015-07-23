@@ -4,12 +4,12 @@
 
       <!-- wrap -->
 
+    <div class="clients-mobile-nav">
+        {% for client in site.data.settings.clients %}
+            <span></span>
+        {% endfor %}
+    </div>
     <div class="clients-wrap">
-      <div class="clients-mobile-nav">
-          {% for client in site.data.settings.clients %}
-              <span></span>
-          {% endfor %}
-      </div>
 
 
         {% for client in site.data.settings.clients %}

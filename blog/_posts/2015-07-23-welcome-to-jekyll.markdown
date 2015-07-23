@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-07-23 01:02:36
+author: JekyllRB
 categories: jekyll update
 permalink: blog/:title
 ---
