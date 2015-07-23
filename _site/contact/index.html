@@ -12,9 +12,9 @@ This site was built with lots of Love and Sass. This site wouldn't have been pos
         <script>
 
             var host1 = "manuelosorio.github.io";
+            var host2 = "manuelosorio.me";
 
-
-            if ((host1 == window.location.host) && (window.location.protocol != "https:"))
+            if ((host1 == window.location.host || host1 == window.location.host) && (window.location.protocol != "https:"))
                 window.location.protocol = "https";
         </script>
         <meta charset="utf-8">
@@ -25,7 +25,7 @@ This site was built with lots of Love and Sass. This site wouldn't have been pos
             <meta name="author" content="Manuel Osorio" />
             <meta name="description" content="Manuel Osorio is a graphic logo designer that makes awesome things for people." />
         
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="../assets/img/icons/favicon.ico">
         <link rel="stylesheet" href="../assets/css/all.css"/>
     </head>

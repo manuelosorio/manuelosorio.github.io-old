@@ -47,6 +47,7 @@ seo:
 # About Section
 
 skills:
+#- {name: <i class="fa fa-heart"></i> Penguins, value: '10'}
 
 - {name: Logo Design, value: '9'}
 
