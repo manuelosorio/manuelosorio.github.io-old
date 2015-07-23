@@ -2,7 +2,7 @@
 
 
 # Build settings
-highlighter: pygments
+highlighter: rogue
 encoding: utf-8
 markdown: kramdown
 
