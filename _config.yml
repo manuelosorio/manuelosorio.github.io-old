@@ -4,10 +4,10 @@
 # Build settings
 highlighter: rogue
 encoding: utf-8
-markdown: kramdown
+markdown: redcarpet
 
 permalink: :title
-
+pageinate: 5
 
 
 port: 80
