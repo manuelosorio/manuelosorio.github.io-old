@@ -2,12 +2,12 @@
 
 
 # Build settings
-
 highlighter: rogue
 encoding: utf-8
-markdown: kramdown
-permalink: pretty
+markdown: redcarpet
 
+permalink: pretty
+pageinate: 5
 
 
 port: 80
