@@ -1,3 +1,0 @@
-# manuelosorio.github.io
-
-## Todo
