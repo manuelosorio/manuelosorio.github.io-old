@@ -26,8 +26,6 @@ menu:
 
 - {name: Work, url: 'work'}
 
-- {name: Contact, url: 'contact'}
-
 - {name: Store, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
 
 #-------------------------------
