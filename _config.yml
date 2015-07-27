@@ -2,9 +2,7 @@
 
 
 # Build settings
-highlighter: rogue
-encoding: utf-8
-markdown: redcarpet
+
 
 permalink: pretty
 pageinate: 5
@@ -15,3 +13,8 @@ port: 80
 sass:
   sass_dir: assets/css
   style: :nested
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -1,12 +1,20 @@
 <div class="nav">
-	<div class="logo">{%  include icons/icon-logo.html %}</div>
-	<div class="flex-right">
-		<div class="links">
-			{% for item in site.data.settings.menu %}
-				<a href="/{{ item.url }}" target="{{ item.target }}">{{ item.name }}</a>
-			{% endfor %}
-	</div>
+    <div class="logo">{%  include icons/icon-logo.html %}</div>
+    <div class="flex-right">
+        <div class="links">
+            {% for item in site.data.settings.menu %}
+                <a href="{{ item.url }}" target="{{ item.target }}">{{ item.name }}</a>
+            {% endfor %}
+    </div>
 
+    <div class="flex-mobile">
+       <span class="icon-navicon"></span>
+        <div class="mobile-nav">
+            {% for item in site.data.settings.menu %}
+            <div><a href="{{ item.url }}" target="{{ item.target }}">{{ item.name }}</a></div>
+            {% endfor %}
+        </div>
+        </div></div>
 
 </div>
 </div>

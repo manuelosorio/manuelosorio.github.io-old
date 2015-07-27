@@ -6,8 +6,12 @@
     +display(flex)
     +justify-content(space-around)
     .logo
+        position: absolute
+        left: 15%
+
         width: 100px
-        margin-left: -15%
+        z-index: 1
+
         svg
             margin-top: -30px
             height: 100px
@@ -20,13 +24,14 @@
                     fill: #ff6b57
     .flex-right
         +display(flex)
+        +flex-wrap(wrap)
         +justify-content(flex-end)
         width: auto
 
         .links
-            margin:
-                top: 5px
-                right: -15%
+            position: absolute
+            top: 5px
+            right: 10%
             a
                 +transition(800ms)
                 color: rgba(255, 255, 255, 0.85)
@@ -35,7 +40,11 @@
                 &:hover
                     color: $primary
                     font-weight: 500
-
+        .icon-navicon
+            cursor: pointer
+            color: snow
+            font-size: 30px
+            display: none
     @media screen and (max-width: 870px)
         .links
             display: none
@@ -60,6 +69,51 @@
             fill: rgba(254,254,242,0.8)
     li a svg path:hover
         fill: #ff6b57
+
 .hide
     display: none
     visibility: hidden
+.mobile-nav
+    display: none
+    text-align: center
+    flex-direction: column
+    flex-wrap: wrap
+    max-height: 130px
+    height: 0
+    justify-content: center
+    align-content: stretch
+    align-items: stretch
+    z-index: 85
+    width: 100vw
+    position: absolute
+    top: 40px
+    left: 0
+    background-color: $bg-color-dark
+    +transition(1s)
+    div
+        padding:
+            left: 15px
+        a
+            border-top-style: solid
+            border-top-width: medium
+            border-top-color: #404040
+            color: rgba(255, 255, 255, 0.85)
+            font-size: 20px
+
+
+            &:hover
+                color: $primary
+                font-weight: 500
+@media screen and (max-width: 870px)
+    .icon-navicon
+        position: absolute
+        right: 10%
+        display: flex !important
+        top: 2px
+    .mobile-nav.active
+        display: flex
+        height: 100%
+@media screen and (max-width: 650px)
+    .icon-navicon
+        top: -5px
+
