@@ -9,21 +9,24 @@ h3
     padding: 45px 0 25px 0
     font-family: Open Sans
     font-size: 1.5em
-
+.flex-wrap
+    +display(flex)
+    +flex-direction(row)
+    +flex-wrap(wrap)
+    +justify-content(center)
 .profile-wrap
     max-width: 780px
     +display(flex)
-    margin: 0px auto
     +align-items(center)
     +justify-content(space-around)
     .face-img
-        +size(200px)
+        +size(350px)
         border:
-            radius: 50%
+            radius: 5px
             width: 6px
-            style: solid
+            style: none
 
-            color: $primary
+
         background-size: cover
 
         background-image: url(../img/#{$avatar-path})
@@ -73,7 +76,7 @@ h3
 .blurp
     max-width: 620px
     padding: 0 20px
-    margin: 50px auto
+    margin: 50px
     font-size: 24px
     text-align: center
     font-weight: 300
@@ -128,3 +131,6 @@ h3
 
 %skill-color
     background: $primary-light
+@media screen and (max-width: 320px)
+    .profile-wrap .face-img
+        +size(250px)

@@ -18,8 +18,8 @@
             width: 100px
 
             path
-                +transition(800ms)
-                fill: snow
+                +transition($trans)
+                fill: $bg-color-light
                 &:hover
                     fill: #ff6b57
     .flex-right
@@ -33,7 +33,7 @@
             top: 5px
             right: 10%
             a
-                +transition(800ms)
+                +transition($trans)
                 color: rgba(255, 255, 255, 0.85)
                 font-size: 20px
                 margin-left: 15px
@@ -42,7 +42,7 @@
                     font-weight: 500
         .icon-navicon
             cursor: pointer
-            color: snow
+            color: $bg-color-light
             font-size: 30px
             display: none
     @media screen and (max-width: 870px)

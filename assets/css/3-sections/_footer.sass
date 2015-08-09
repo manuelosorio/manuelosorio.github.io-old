@@ -24,8 +24,8 @@ footer
                 margin:
                     left: 50px
                 path
-                    fill: snow
-                    +transition(800ms)
+                    fill: $bg-color-light
+                    +transition($trans)
                     &:hover
                         fill: #ff6b57
 
@@ -45,7 +45,7 @@ footer
             a
                 display: inline-block
                 margin-right: 20px
-                +transition(800ms)
+                +transition($trans)
                 color: rgba(255, 255, 255, 0.85)
                 @extend %small-bold
 

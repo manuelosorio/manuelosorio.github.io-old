@@ -3,9 +3,7 @@
 
 head:
 
-- {title: Manuel Osorio  | Graphic Designer, name: 'Manuel Osorio', description: 'Manuel Osorio is a graphic logo designer that makes awesome things for people.'}
-
-
+- {title: Manuel Osorio  | Graphic Designer, name: 'Manuel Osorio', description: 'Manuel Osorio is a graphic designer that makes awesome things for people.', email: 'hey@manuelosorio.me'}
 # General Site Settings
 
 
@@ -23,10 +21,9 @@ menu:
 
 
 - {name: About, url: ''}
-
 - {name: Work, url: 'work'}
+- {name: Contact, url: 'contact'}
 
-- {name: Store, url: 'https://mkdesignz.spreadshirt.com/', target: '_blank'}
 
 #-------------------------------
 # SEO Section
