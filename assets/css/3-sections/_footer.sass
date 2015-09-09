@@ -2,27 +2,26 @@
     margin: 25px 50px 75px 100px;
 footer
     background: $footer-bg
-    position: relative
-    top: 0
-    bottom: 0
+
     text-align: center
+
     overflow: hidden
-
+    width: 100%
+    +display(flex)
+    +flex-direction(column)
     .lockup
-        padding:
-            top: 15px
-            bottom: 24px
-            right: 30px
-            left: 30px
         +clearfix
+        +flex-direction(row)
 
+        padding: 15px 30px 24px
         .logo
-            margin-top: 15px
+            +flex-direction(column)
+            +justify-content(center)
+            //margin-top: 15px
             svg
                 width: 175px
                 float: left
-                margin:
-                    left: 50px
+                margin-left: 50px
                 path
                     fill: $bg-color-light
                     +transition($trans)
@@ -32,23 +31,17 @@ footer
 
 
         .content-wrapper
-            float: left
-            margin:
-                top: 25px
-                left: 25%
-
+            +flex-direction(column)
             .copyright
                 text-transform: uppercase
                 color: rgba(255, 255, 255, 0.85)
                 @extend %small-bold
-
             a
                 display: inline-block
                 margin-right: 20px
                 +transition($trans)
                 color: rgba(255, 255, 255, 0.85)
                 @extend %small-bold
-
             a:hover
                 color: $primary
 

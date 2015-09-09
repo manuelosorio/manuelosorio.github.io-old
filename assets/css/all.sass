@@ -11,6 +11,9 @@
 
 
 $avatar-path: '{{ site.data.layout.avatar }}'
+$trans: 500ms
+
+$font: 'Varela Round', 'Open Sans', sans-serif
 
 ///////////////////////
 //
@@ -23,7 +26,7 @@ $primary-light: lighten($primary, 15%)
 $bg-color: lighten($primary, 15%)
 $bg-color-light: #ECECEC
 $documentBackgroundColor: #fff
-$headline-color: rgba(30,168.2,90,1)
+$headline-color: rgba(241, 94, 69, 1)
 $text-color: #2E2D33
 $link-color: rgba(241, 94, 69, 1)
 $selection-color: #aca1ad
@@ -31,7 +34,6 @@ $selection-color: #aca1ad
 $header-bg: rgba(50,50,50,1.0)
 $footer-bg: rgba(50,50,50,1.0)
 $bg-color-dark: #323232
-$trans: 500ms
 
 ///////////////////////////
 //
@@ -43,6 +45,6 @@ body
 @import '1-tools/-tools-index'
 @import '2-base/-base-index'
 @import '3-sections/-sections-index'
-
+@import "blog/cta"
 .fa-heart:before
     color: #ff6b57

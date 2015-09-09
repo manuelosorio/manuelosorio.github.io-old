@@ -12,20 +12,26 @@ This site was built with lots of ♥ and Sass. This site wouldn't have been poss
 
 -->
 <html lang="en">
-    {% include head.html %}
-    <body>
 
+    {% include head.html %}
+        <script>
+          var host1 = "manuelosorio.me";
+          var host2 = "manuelosorio.github.io";
+          if ((host1 == window.location.host || host2 == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+        </script>
+    <body>
+        <div class="container">
             {% include nav-perm-pretty.html %}
             {% include work.html %}
-
+        </div>
             {% include footer-perm-pretty.html %}
 
 
 
-
         <script src="/assets\js\jquery-2.1.1.min.js"></script>
-        <script src="/assets/js/functions.js"></script>
         <script src="/assets/js/jquery.fitvids.js"></script>
+        <script src="/assets/js/functions.js"></script>
         <script src="/assets/js/toggleNav.js"></script>
         <script>
             $(".flex-video").fitVids();

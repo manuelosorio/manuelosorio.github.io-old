@@ -3,8 +3,17 @@ layout: default
 permalink: blog/
 ---
 
+
+<style>
+    footer, .nav{
+        display: none;
+    }
+</style>
+
+
 <div class="home">
 
+<!--
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -18,4 +27,21 @@ permalink: blog/
       </li>
     {% endfor %}
   </ul>
+-->
+
+    <div class="cta">
+        <div class="wrapper">
+            <a class="logo" href="/">{% include icons/icon-logo.html %}</a>
+            <h2>I'm taking on my next challenge!</h2>
+            <p>
+               <strong>On September 30, 2015 </strong>
+               I'll launch my offical blog. <a href="/blog/posts/2015/august/Welcome-to-my-blog">Click here </a>to read my first post.
+            </p>
+
+        </div>
+    </div>
 </div>
+
+        <script src="../assets/js/jquery-2.1.1.min.js"></script>
+        <script src="../assets/js/functions.js"></script>
+        <script src="/assets/js/toggleNav.js"></script>

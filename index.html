@@ -12,14 +12,8 @@ This site was built with lots of ♥ and Sass. Travis Nieson's @ youtube.com/use
 -->
 <html lang="en">
     <head>
-        <script>
-
-          var host1 = "manuelosorio.github.io";
-          var host2 = "manuelosorio.me";
-
-          if ((host1 == window.location.host || host2 == window.location.host) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-        </script>
+        <link rel="stylesheet" href="assets/css/all.css"/>
+        <link rel="shortcut icon" href="assets/img/icons/favicon.ico">
         <meta charset="utf-8">
         {% for head in site.data.settings.head %}
         <title>{{ head.title }}</title>
@@ -29,13 +23,18 @@ This site was built with lots of ♥ and Sass. Travis Nieson's @ youtube.com/use
             <meta name="description" content="{{ head.description }}" />
         {% endfor %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="assets/img/icons/favicon.ico">
-        <link rel="stylesheet" href="assets/css/all.css"/>
+        <script>
+          var host1 = "manuelosorio.me";
+          var host2 = "manuelosorio.github.io";
+          if ((host1 == window.location.host || host2 == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+        </script>
     </head>
     <body>
-
+        <div class="container">
             {% include nav.html %}
             {% include about.html %}
+        </div>
             {% include footer.html %}
 
 

@@ -1,12 +1,6 @@
 <head>
-  <script>
-
-    var host1 = "manuelosorio.github.io";
-    var host2 = "manuelosorio.me";
-
-    if ((host1 == window.location.host || host2 == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-  </script>
+    <link rel="stylesheet" href="/../assets/css/all.css"/>
+    <link rel="stylesheet" href="/../assets/css/blog.css"/>
     <meta charset="utf-8">
     {% for head in site.data.settings.head %}
     <title>{{ head.title }}</title>
@@ -17,6 +11,4 @@
     {% endfor %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/../assets/img/icons/favicon.ico">
-    <link rel="stylesheet" href="/../assets/css/all.css"/>
-    <link rel="stylesheet" href="/../assets/css/blog.css"/>
 </head>
